@@ -1,0 +1,245 @@
+{
+  "id": "VC4A-3307564",
+  "messageVersion": "68656",
+  "sms6": "100519",
+  "section": "31",
+  "family": "3",
+  "subfamily": "6",
+  "shortDesc": "CANAPES",
+  "longDesc": "CANAPES",
+    "template": "xm1003",
+    "navCategories": [
+    "cat2480008",
+    "cat2953577"
+  ],
+  "supplier": {
+    "code": "62469",
+    "name": "UNIVERSAL MUSIC SPAIN S.L."
+  },
+  "novelty": false,
+  "comparable": true,
+  "skus": [
+    {
+      "ean": "7308365493578",
+      "sms10": "1005190000",
+      "imageNum": "1",
+      "logisticalSize": "33"
+    }
+  ],
+  "brand": {
+    "code": "101",
+    "name": "marca",
+    "type": "National Brand"
+  },
+  "assortmentLevel": [
+    "1-9-NAC.CATALOGO",
+    "2-12-LOCAL",
+    "3-22-LOCAL"
+  ],
+  "categoryName": "BASES",
+  "categoryCode": "CPIM-612",
+  "productAttrs": [
+    {
+      "id": "ATG_NA_INFORMACION_BASICA.AttrID-HH-General-Style",
+      "value": "Provenzal"
+    },
+    {
+      "id": "ATG_NA_INFORMACION_BASICA.AttrID-HH-General-Color",
+      "value": "Bicolor"
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-HH-General-Color",
+      "value": "Bicolor"
+    },
+    {
+      "id": "ATG_NA_INFORMACION_BASICA.AttrID-Media-Description",
+      "value": "CANAPES"
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-LawsMatreness",
+      "value": "Bases: El montaje de éste artículo se incluye con el reparto. Entrega y montaje del producto siempre y cuando las condiciones del domicilio y el acceso al mismo sea el adecuado y normal en relación con el volumen del producto adquirido. Entrega y montaje del producto siempre y cuando las condiciones del domicilio y el acceso al mismo sea el adecuado y normal en relación con el volumen del producto adquirido. Condiciones de devolución: por motivos de higiene, los productos de descanso desembalados no serán susceptibles de devolución, salvo previa comprobación, por defectos de fabricación o transporte. La garantía de este producto es conforme a la legislación vigente."
+    },
+    {
+      "id": "ATG_NA_ProductAttributes.ESTADO",
+      "value": [
+        "1-INACTIVO",
+        "2-INACTIVO",
+        "3-INACTIVO"
+      ]
+    },
+    {
+      "id": "ATG_NA_ProductAttributes.AttrID-ListaEmpresas",
+      "value": [
+        "3-CARREFOUR-SUPERMERCADOS"
+      ]
+    },
+    {
+      "id": "ATG_NA_ProductAttributes.AttrID-VSI_ID",
+      "value": [
+        "509112"
+      ]
+    },
+    {
+      "id": "ATG_NA_ProductAttributes.AttrID-Social_Reason",
+      "value": [
+        "UNIVERSAL MUSIC SPAIN S.L."
+      ]
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-OnLineCanalB",
+      "value": "N/A de , N/A, N/A, 80 cm x 220, . ",
+      "translations": [
+        {
+          "locale": "en_US",
+          "value": "N/A de , N/A, N/A, 80 cm x 220, . "
+        },
+        {
+          "locale": "ca_ES",
+          "value": "N/A de , N/A, N/A, 80 cm x 220, . "
+        },
+        {
+          "locale": "fr_FR",
+          "value": "N/A de , N/A, N/A, 80 cm x 220, . "
+        },
+        {
+          "locale": "pt_PT",
+          "value": "N/A de , N/A, N/A, 80 cm x 220, . "
+        },
+        {
+          "locale": "es_ES",
+          "value": "N/A de , N/A, N/A, 80 cm x 220, . "
+        }
+      ]
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-MeassuresBases",
+      "value": "80 cm x 220",
+      "translations": [
+        {
+          "locale": "en_US",
+          "value": "80 cm x 220"
+        },
+        {
+          "locale": "ca_ES",
+          "value": "80 cm x 220"
+        },
+        {
+          "locale": "fr_FR",
+          "value": "80 cm x 220"
+        },
+        {
+          "locale": "pt_PT",
+          "value": "80 cm x 220"
+        },
+        {
+          "locale": "es_ES",
+          "value": "80 cm x 220"
+        }
+      ]
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-TipoCama_Bases",
+      "value": "Individual",
+      "translations": [
+        {
+          "locale": "en_US",
+          "value": "Individual"
+        },
+        {
+          "locale": "ca_ES",
+          "value": "Individual"
+        },
+        {
+          "locale": "fr_FR",
+          "value": "Individual"
+        },
+        {
+          "locale": "pt_PT",
+          "value": "Individual"
+        },
+        {
+          "locale": "es_ES",
+          "value": "Individual"
+        }
+      ]
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-GeneralTechnicalText1B",
+      "value": "Medida: 80 cm x 220 x  cm Base:  . ",
+      "translations": [
+        {
+          "locale": "en_US",
+          "value": "Medida: 80 cm x 220 x  cm Base:  . "
+        },
+        {
+          "locale": "ca_ES",
+          "value": "Medida: 80 cm x 220 x  cm Base:  . "
+        },
+        {
+          "locale": "fr_FR",
+          "value": "Medida: 80 cm x 220 x  cm Base:  . "
+        },
+        {
+          "locale": "pt_PT",
+          "value": "Medida: 80 cm x 220 x  cm Base:  . "
+        },
+        {
+          "locale": "es_ES",
+          "value": "Medida: 80 cm x 220 x  cm Base:  . "
+        }
+      ]
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-HH-ArtMeassure-G",
+      "value": " x  x ",
+      "translations": [
+        {
+          "locale": "en_US",
+          "value": " x  x "
+        },
+        {
+          "locale": "ca_ES",
+          "value": " x  x "
+        },
+        {
+          "locale": "fr_FR",
+          "value": " x  x "
+        },
+        {
+          "locale": "pt_PT",
+          "value": " x  x "
+        },
+        {
+          "locale": "es_ES",
+          "value": " x  x "
+        }
+      ]
+    },
+    {
+      "id": "ATG_NA_DATOS_GENERALES.AttrID-AllCanalB",
+      "value": "N/A, , N/A, 80 cm x 220 , N/A. ",
+      "translations": [
+        {
+          "locale": "en_US",
+          "value": "N/A, , N/A, 80 cm x 220 , N/A. "
+        },
+        {
+          "locale": "ca_ES",
+          "value": "N/A, , N/A, 80 cm x 220 , N/A. "
+        },
+        {
+          "locale": "fr_FR",
+          "value": "N/A, , N/A, 80 cm x 220 , N/A. "
+        },
+        {
+          "locale": "pt_PT",
+          "value": "N/A, , N/A, 80 cm x 220 , N/A. "
+        },
+        {
+          "locale": "es_ES",
+          "value": "N/A, , N/A, 80 cm x 220 , N/A. "
+        }
+      ]
+    }
+  ]
+}

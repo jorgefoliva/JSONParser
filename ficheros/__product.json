@@ -1,0 +1,21 @@
+{
+	"product": {
+		"id": "prod01",
+		"name": "Piña",
+		"sizes": ["pequeña","mediana","grande"],
+		"features": [
+			{
+				"featureName": "corte",
+				"value": ["fino", "mediano", "gordo"]
+			},
+			{
+				"featureName": "color",
+				"value": ["rojo", "verde"]
+			}
+		],
+		"data": {
+			"prop1": "soy uno",
+			"prop2": "soy dos"
+		}
+	}
+}
