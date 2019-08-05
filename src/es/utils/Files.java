@@ -1,4 +1,4 @@
-package es.parser;
+package es.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,7 +8,7 @@ import java.net.URL;
 
 /**
  * 
- * @author M6891807
+ * @author Jorge F Oliva
  *
  */
 public class Files {

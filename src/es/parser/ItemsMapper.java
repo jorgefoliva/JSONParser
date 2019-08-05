@@ -3,6 +3,11 @@ package es.parser;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 
+ * @author Jorge F. Oliva
+ *
+ */
 public class ItemsMapper {
 
 	public class ProductMapper {
