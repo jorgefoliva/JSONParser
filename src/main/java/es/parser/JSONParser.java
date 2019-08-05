@@ -1,4 +1,4 @@
-package es.parser;
+package main.java.es.parser;
 
 /**
  * 
@@ -12,7 +12,6 @@ public class JSONParser {
 	public JSONParser() {
 		ProductImporter pi = new ProductImporter(PATH_PRODUCT);
 		pi.doImport();
-
 	}
 
 	public static void main(String[] args) {

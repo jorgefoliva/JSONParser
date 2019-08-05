@@ -1,4 +1,4 @@
-package es.parser;
+package main.java.es.parser;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -36,7 +36,7 @@ public abstract class ItemParser {
 				}
 			}
 		} catch (JSONException e) {
-			e.printStackTrace();
+			e.getMessage();
 		}
 	}
 

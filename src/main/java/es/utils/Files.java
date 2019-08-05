@@ -1,4 +1,4 @@
-package es.utils;
+package main.java.es.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -45,13 +45,15 @@ public class Files {
 
 			return strJsonResp.toString();
 		} catch (Exception e) {
-			e.printStackTrace();
+			e.getMessage();
 			return null;
 		} finally {
 			try {
-				in.close();
+				if (in != null) {
+					in.close();
+				}
 			} catch (IOException e) {
-				e.printStackTrace();
+				e.getMessage();
 			}
 		}
 	}

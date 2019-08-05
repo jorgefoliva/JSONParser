@@ -1,4 +1,4 @@
-package es.beans;
+package main.java.es.beans;
 
 public class DataBean {
 	private String prop1;

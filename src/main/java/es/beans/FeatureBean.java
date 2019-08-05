@@ -1,4 +1,4 @@
-package es.beans;
+package main.java.es.beans;
 
 public class FeatureBean {
 	private String featureName;

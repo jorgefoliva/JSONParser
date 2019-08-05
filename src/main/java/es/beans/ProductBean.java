@@ -1,4 +1,4 @@
-package es.beans;
+package main.java.es.beans;
 
 import java.util.List;
 
