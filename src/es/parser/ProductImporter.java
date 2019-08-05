@@ -7,7 +7,14 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
-public class ProductImporter extends ItemImporter {
+import es.utils.Files;
+
+/**
+ * 
+ * @author Jorge F. Oliva
+ *
+ */
+public class ProductImporter extends ItemParser {
 	private String path;
 
 	public ProductImporter(String pPath) {
