@@ -1,10 +1,10 @@
-package es.importer;
+package es.parser;
 
-public class Importador {
+public class JSONParser {
 
 	private static final String PATH_PRODUCT = ".\\ficheros\\product.json";
 
-	public Importador() {
+	public JSONParser() {
 		ProductImporter pi = new ProductImporter(PATH_PRODUCT);
 		pi.doImport();
 
@@ -12,6 +12,6 @@ public class Importador {
 	}
 
 	public static void main(String[] args) {
-		Importador principal = new Importador();
+		JSONParser principal = new JSONParser();
 	}
 }

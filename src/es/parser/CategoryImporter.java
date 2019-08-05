@@ -1,4 +1,4 @@
-package es.importer;
+package es.parser;
 
 public class CategoryImporter extends ItemImporter {
 
