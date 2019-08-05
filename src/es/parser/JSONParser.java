@@ -7,7 +7,7 @@ package es.parser;
  */
 public class JSONParser {
 
-	private static final String PATH_PRODUCT = ".\\ficheros\\product.json";
+	private static final String PATH_PRODUCT = ".\\data\\product.json";
 
 	public JSONParser() {
 		ProductImporter pi = new ProductImporter(PATH_PRODUCT);
@@ -16,6 +16,6 @@ public class JSONParser {
 	}
 
 	public static void main(String[] args) {
-		JSONParser principal = new JSONParser();
+		JSONParser parser = new JSONParser();
 	}
 }
