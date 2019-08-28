@@ -17,18 +17,25 @@ import org.json.JSONObject;
  */
 public abstract class ItemParser {
 
+	private static final String SEPARATOR = ".";
+
 	/**
 	 * 
 	 * @param pJsonObject
 	 * @param pItem
 	 */
 	@SuppressWarnings("unchecked")
-	protected void parse(JSONObject pJsonObject, Map<String, Object> pItem) {
+	protected void parse(JSONObject pJsonObject, Map<String, Object> pItem, String pParentKey) {
 		try {
 			Iterator<String> keys = pJsonObject.keys();
 			while (keys.hasNext()) {
 				String key = keys.next();
 				Object json = pJsonObject.get(key);
+
+				if (pParentKey != null && pParentKey != "") {
+					key = pParentKey + SEPARATOR + key;
+				}
+
 				if (json instanceof JSONObject) {
 					setJSONObjectValue(pJsonObject, key, pItem);
 				} else {
@@ -52,7 +59,7 @@ public abstract class ItemParser {
 		JSONObject value = pJsonObject.getJSONObject(pKey);
 
 		Map<String, Object> aux = new HashMap<>();
-		parse(value, aux);
+		parse(value, aux, pKey);
 		pItem.put(pKey, aux);
 	}
 
@@ -81,7 +88,14 @@ public abstract class ItemParser {
 	 * @param pItem
 	 */
 	private void setJSONStringValue(JSONObject pJsonObject, String pKey, Map<String, Object> pItem) {
-		String value = pJsonObject.optString(pKey);
+
+		String key = pKey;
+		if (pKey.contains(SEPARATOR)) {
+			String[] aaa = pKey.split("\\" + SEPARATOR);
+			key = aaa[1];
+		}
+
+		String value = pJsonObject.optString(key);
 		pItem.put(pKey, value);
 	}
 
@@ -102,7 +116,7 @@ public abstract class ItemParser {
 				JSONObject jsonObject = (JSONObject) pJsonArrayItemValues.get(i);
 
 				Map<String, Object> aux = new HashMap<>();
-				parse(jsonObject, aux);
+				parse(jsonObject, aux, null);
 
 				values.add(aux);
 			}

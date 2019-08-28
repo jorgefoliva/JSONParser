@@ -32,7 +32,7 @@ public class ProductImporter extends ItemParser {
 		JSONTokener tokenizer = new JSONTokener(message);
 		try {
 			JSONObject json = new JSONObject(tokenizer);
-			parse(json, productMap);
+			parse(json, productMap, null);
 
 			System.out.println("MAP " + productMap);
 		} catch (JSONException e) {
